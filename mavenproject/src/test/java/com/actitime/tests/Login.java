@@ -35,17 +35,4 @@ public class Login extends BaseClass{
 		
 	}
 	
-	@Test
-	public static void login_002() throws Exception
-	{
-		boolean result = false;			
-   		
-		writeInfoLogs("Trying to login to the actitime application by calling login method..");		
-		result = CommonUtils.loginToActiTimeApplication();		
-		
-		// Checking the result to be equal to true
-		Assert.assertFalse(result, "Could not login to ActiTime application..");
-			
-		
-	}
 }
