@@ -17,9 +17,10 @@ import org.testng.annotations.Test;
 import com.actitime.base.BaseClass;
 import com.actitime.utils.CommonUtils;
 
+
 public class Login extends BaseClass{
 	
-		
+	//Adding a comment	
 	@Test
 	public static void login_001() throws Exception
 	{
@@ -30,8 +31,7 @@ public class Login extends BaseClass{
 		
 		// Checking the result to be equal to true
 		Assert.assertTrue(result, "Could not login to ActiTime application..");
-			
-			
+		
 		
 	}
 	
